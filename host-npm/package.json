@@ -1,0 +1,12 @@
+{
+  "name": "host-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "yalc": "^1.0.0-pre.47"
+  },
+  "dependencies": {
+    "lib": "file:.yalc/lib"
+  }
+}
