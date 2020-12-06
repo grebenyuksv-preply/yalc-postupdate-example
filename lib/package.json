@@ -1,9 +1,15 @@
 {
-  "name": "lib",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "yalc": "^1.0.0-pre.47"
-  }
+    "name": "lib",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "postupdate": "ls | grep yarn.lock && yarn upgrade lib || :; ls | grep package-lock.json && npm update lib || :"
+    },
+    "devDependencies": {
+        "yalc": "^1.0.0-pre.47"
+    },
+    "dependencies": {
+        "react": "^15"
+    }
 }

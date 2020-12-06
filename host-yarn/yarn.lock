@@ -218,7 +218,7 @@ jsonfile@^4.0.0:
     graceful-fs "^4.1.6"
 
 "lib@file:.yalc/lib":
-  version "1.0.0-29eaf161"
+  version "1.0.0-c4305722"
   dependencies:
     react "^15"
 
