@@ -4,7 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "postupdate": "ls | grep yarn.lock && yarn upgrade lib || :; ls | grep package-lock.json && npm update lib || :"
+        "postupdate": "ls | grep yarn.lock && yarn upgrade lib || :; ls | grep package-lock.json && npm uninstall lib && yalc add lib && npm i || :"
     },
     "devDependencies": {
         "yalc": "^1.0.0-pre.47"
